@@ -9,17 +9,17 @@ import Card from "./Sections/Card";
 function Chatbot() {
     const dispatch = useDispatch();
     const messagesFromRedux = useSelector(state => state.message.messages)
-
+    //페이지가 시작되면 실행되는 인텐스 지정
     useEffect(() => {
 
-        eventQuery('welcomeToMyWebsite')
+        eventQuery('welcomeChatBot')
 
     }, [])
     const textQuery = async (text) => {
 
         //  First  Need to  take care of the message I sent     
         let conversation = {
-            who: 'user',
+            who: '고객님',
             content: {
                 text: {
                     text: text
@@ -38,17 +38,17 @@ function Chatbot() {
             const response = await Axios.post('/api/dialogflow/textQuery', textQueryVariables)
             for (let content of response.data.fulfillmentMessages) {
                 conversation = {
-                    who: 'bot',
+                    who: 'Chat-Bot',
                     content: content
                 }
                 dispatch(saveMessage(conversation))
             }
         } catch (error) {
             conversation = {
-                who: 'bot',
+                who: 'Chat-Bot',
                 content: {
                     text: {
-                        text: " Error just occured, please check the problem"
+                        text: "오류가 발생했습니다."
                     }
                 }
             }
@@ -66,7 +66,7 @@ function Chatbot() {
             for (let content of response.data.fulfillmentMessages) {
 
                 let conversation = {
-                    who: 'bot',
+                    who: 'Chat-Bot',
                     content: content
                 }
 
@@ -74,7 +74,7 @@ function Chatbot() {
             }
         } catch (error) {
             let conversation = {
-                who: 'bot',
+                who: 'Chat-Bot',
                 content: {
                     text: {
                         text: " Error just occured, please check the problem"
@@ -86,6 +86,7 @@ function Chatbot() {
 
     }
     const keyPressHanlder = (e) => {
+        
         if (e.key === "Enter") {
 
             if (!e.target.value) {
@@ -141,7 +142,7 @@ function Chatbot() {
             border: '3px solid black', borderRadius: '7px'
         }}>
             <div style={{ height: 450, width: '100%', overflow: 'auto' }}>
-
+                
 
                 {renderMessage(messagesFromRedux)}
 
@@ -152,7 +153,7 @@ function Chatbot() {
                         margin: 0, width: '100%', height: 50,
                         borderRadius: '4px', padding: '5px', fontSize: '1rem'
                     }}
-                    placeholder="Send a message..."
+                    placeholder="말씀해주세요!"
                     onKeyPress={keyPressHanlder}
                     type="text"
                 />
