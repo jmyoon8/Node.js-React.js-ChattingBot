@@ -9,7 +9,7 @@ function Message(props) {
     
     return (
       
-        <List.Item style={{ padding: '1rem', float:fl,width:'25rem'}} >
+        <List.Item style={{ padding: '1rem', float:fl,width:'25rem',fontSize:'10px'}} >
             <List.Item.Meta
                 
                 title={props.who}
