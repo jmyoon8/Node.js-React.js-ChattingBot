@@ -64,7 +64,7 @@ router.post('/eventQuery', async (req, res) => {
         },
     };
 
-    // Send request and log result
+    // Send request and log result 다이알로그 플로우의 대답값
     const responses = await sessionClient.detectIntent(request);
     console.log('Detected intent');
     const result = responses[0].queryResult;

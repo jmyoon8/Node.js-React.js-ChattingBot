@@ -138,7 +138,7 @@ function Chatbot() {
 
     return (
         <div style={{
-            height: 507, width: 500,
+            height: 507, width: 600,
             border: '3px solid black', borderRadius: '7px'
         }}>
             <div style={{ height: 450, width: '100%', overflow: 'auto' }}>
