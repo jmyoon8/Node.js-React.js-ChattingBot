@@ -10,5 +10,5 @@ yarn-error.log*
 
 .vscode
 
-dev.js
-./server/config/dev.js
+# dev.js
+# ./server/config/dev.js
