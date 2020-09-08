@@ -8,7 +8,8 @@ function Message(props) {
     // const fl=props.who==='Chat-Bot'?float='left' :float='right'
     
     return (
-      
+    
+    
         <List.Item style={{ padding: '1rem', /*float:fl,width:'25rem',*/fontSize:'10px'}} >
             <List.Item.Meta
                 
