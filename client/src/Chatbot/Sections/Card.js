@@ -10,7 +10,7 @@ function CardComponent(props) {
             cover={
                 <img
                     alt={props.cardInfo.fields.description.stringValue}
-                    src={props.cardInfo.fields.image.stringValue} />
+                    src={props.cardInfo.fields.image.stringValue} style={{width:"50px",height:"50px",marginLeft:"55px",marginTop:"10PX"}}/>
             }
             actions={[
                 <a target="_blank" rel="noopener noreferrer" href={props.cardInfo.fields.link.stringValue}>
