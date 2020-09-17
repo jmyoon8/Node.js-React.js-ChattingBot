@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "graffiti-288405",
+  "private_key_id": "b2b11d51ba6fa0038b4968f3f763985cbb9c980d",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDEIMPmhyxMrlB5\ngAjE4zgjxZXZFfyIGdXBPiq526BuAN+DFUQZMrIVnF5nSbOGr5pP41K9BZKczBfp\nphdE5nZrywfEzKvO0nj9L2ehf6ZUbiJ7jwZHO9sWojhc/ZRoMnAe6Mzv1IjY0U7Y\n++pCJl/qpeoSK9KvBimKb8E5s+3fLRUfDwvxd1Jy5eiFSEhglDwWFK3s5lSVjX/t\nwNR2OViGPwx5DAHJfng0w4R2Lid2uWp1Z9h6DHKrS+jjO4NpCbdcFFb5ZsZy12V5\n3Ozaxgt2yRpOWg1FBnpYT3zEkH4kSCrzTP3PiBOzkw6yuVsQnMI4F9qKEir0x5R3\nlLkoCLTdAgMBAAECggEAA7/gRua5fyt2SzsE+pChKOE/j2N8d7SjZxrzZv4O0ojj\n57C5znqEjZBhp1CxJNzJaDK/c5t+P/ml5mK1agI27DIjj0yzZymTxGa025FMwoCg\nL6OzxMZdQVDvdMBTUez5mERZRfzWneszJPJR+kWbX/7Khgzo7aLXm0zY0UEs8G82\nuOMSGzxeZQAFx/wxUq2zPOLDLv0a4zbBhJSb7FFzvT9Oj0lOC4BrGyh8EI4PbX3L\nTeQSc/Q/8pt8M4oCAzv7rP0DXXX7zRcgsJ24HQy8nmDnvyt2NvBr68Ep6J3JRD8h\n0nUufndXCbEPJmzJjwlCP5iLZjdEBVDwuVsibgwD4QKBgQDlE3TbamdXhkn/r0Bd\nWMA+aQ8EllLXxErALas/fLoFT5xeeYNGMMG3+338g6Cr2bGsQuof+eMqcc5w+wZh\nCKbWJ2LgoB2UgpbiX7WLk4b+ciwcMgnMQohi0VWeZaFPenguTcNCFm2J/uZl70h9\noNinWUwz5McJhojk30V0zVbZIQKBgQDbLfQx/1Qp197AOakvdEA7MZOm5zHudUk0\nuYl7yiMLWmHy2mRYvmQwVJksRDA2fZH5r4LX+mPornqYivE8wLm8R73npr0ChTfb\nM2gEt0wPH3FcbKwNgafr77Vetrgs1bHNFszqF11ZzXIizHpaMekQOV67CrTNb+Ms\nyNkpLR/4PQKBgQCs6ZPSr62T7oTa4DFohL6QHYM9hi7AOaXnDFHwWTidG6u/0F8b\n01/WfZpqyfy021z214ecXWZwunkG5SS6h+pPSmmjfpj1aeF0vKPv2IsUc6ACJG8q\n5KnIVZUYPESYFqyy3vXdY8qJWIQXO5hvY8NGBuyzWyQ2d3vLrxDhisHcoQKBgF4g\niRujrJBfvbDN0oOnqCIDs4ZdCYt/4RV8jLeV4qDwitoRwkB+W2aKHlHtYssz+CnD\nnyyDwr5dmBbErL9LgTiDkuHWMJvRfGBt3kEQOuDPvw5TOTx/rw7bHgfz7nqKt1X9\ncbkimZuEaHzbVbxAbPfju3QWL/l+EJDeHKzbTTx9AoGBANP6IvfVHyV1WRBzPpuc\nOm35z9DZuH4rfKY5ULIRCR9vphbcv+JI20SfINFHtkwUA1CUsE1hWA5RPIYATI47\n/0tDBh34MuAs5K8hphJ9p30IadTVKBzLtIt0IWvqPL8zvEzNCBgFIbclkoll+Tab\nJxy5YZGo2vdN5GPUdEJS0AfR\n-----END PRIVATE KEY-----\n",
+  "client_email": "life-care-chat-bot-663@graffiti-288405.iam.gserviceaccount.com",
+  "client_id": "108197175654704854050",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/life-care-chat-bot-663%40graffiti-288405.iam.gserviceaccount.com"
+}
