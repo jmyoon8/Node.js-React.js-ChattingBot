@@ -6,7 +6,15 @@ import Message from './Sections/Message';
 import { List, Icon, Avatar } from 'antd';
 import Card from "./Sections/Card";
 
+
+
+
+
+
+
 function Chatbot() {
+  
+
     const dispatch = useDispatch();
     const messagesFromRedux = useSelector(state => state.message.messages)
     //페이지가 시작되면 실행되는 인텐스 지정
@@ -137,11 +145,11 @@ function Chatbot() {
 
 
     return (
-        <div style={{
+        <div id="msgdiv" style={{
             height: 507, width: 600,
             border: '3px solid black', borderRadius: '7px'
         }}>
-            <div style={{ height: 450, width: '100%', overflow: 'auto' }}>
+            <div class="msgdiv" style={{ height: 450, width: '100%', overflow: 'auto' }}>
                 
 
                 {renderMessage(messagesFromRedux)}
@@ -162,5 +170,6 @@ function Chatbot() {
         </div>
     )
 }
+
 
 export default Chatbot;
