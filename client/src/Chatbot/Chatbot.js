@@ -147,7 +147,7 @@ function Chatbot() {
     return (
         <div id="msgdiv" style={{
             height: 507, width: 600,
-            border: '3px solid black', borderRadius: '7px'
+            border: '1px solid black'
         }}>
             <div class="msgdiv" style={{ height: 450, width: '100%', overflow: 'auto' , overflowX:'hidden'}}>
                 
@@ -158,13 +158,14 @@ function Chatbot() {
             </div>
                 <input
                     style={{
-                        margin: 0, width: '100%', height: 50,
+                        marginTop: 3, width: '100%', height: 50,
                         borderRadius: '4px', padding: '5px', fontSize: '1rem'
                     }}
                     placeholder="말씀해주세요!"
                     onKeyPress={keyPressHanlder}
                     type="text"
                 />
+                
             </div>
     )
 }

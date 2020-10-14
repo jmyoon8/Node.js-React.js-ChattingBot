@@ -1,12 +1,13 @@
-.ant-list-item-meta-content{
+.content{
     overflow-x : hidden !important;
     color: #f5f5f5;
     font-size: 100%;
-    background-color: #e6e320cc !important;
+    
     padding-top: 10px;
     border-radius: 10px;
+    
 }
-.ant-list-item-meta-description{
+.description{
     margin-left: 10px;
     margin-bottom: 12px;
     color: black !important;
@@ -19,7 +20,102 @@
 .msgdiv{
     background: cornflowerblue;
     
-    
-    
-    
 } 
+.ant-list-item-meta-description{
+    font-size: 15px;
+}
+.ant-list-item{
+    width: 550px;
+}
+
+
+/* 타인이 보낼때 */
+.sent{
+    letter-spacing: 0.1px;
+    color: #32465a;
+    text-rendering: optimizeLegibility;
+    list-style: none;
+    box-sizing: border-box;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    display: inline-block;
+    clear: both;
+    float: left;
+    margin: 15px 15px 5px 15px;
+    width: calc(100% - 25px);
+
+}
+.sent .p{
+    letter-spacing: 0.1px;
+    color: #000000;
+    text-rendering: optimizeLegibility;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+    list-style: none;
+    box-sizing: border-box;
+    margin: 0;
+    margin-top: 10px;
+    border: 0;
+    font: inherit;
+    font-size: 120%;
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 20px;
+    line-height: 100%;
+    max-width: 550px;
+    background:  #e6e320f1;
+    float: left;
+}
+
+/* 본인이 보낼떄 */
+.replies{
+    letter-spacing: 0.1px;
+    color: #32465a;
+    text-rendering: optimizeLegibility;
+    list-style: none;
+    box-sizing: border-box;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    display: inline-block;
+    clear: both;
+    float: right;
+    margin: 15px 15px 5px 15px;
+    width: calc(100% - 25px);
+}
+
+.message{
+    letter-spacing: 0.1px;
+    color: #000000;
+    text-rendering: optimizeLegibility;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+    list-style: none;
+    box-sizing: border-box;
+    margin: 0;
+    margin-top: 0;
+    border: 0;
+    font: inherit;
+    font-size: 120%;
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 20px;
+    line-height: 100%;
+    max-width: 550px;
+    background:  white;
+    float: right;
+    
+}
+
+.r{
+    margin-bottom: 0px;
+    list-style: none;
+    float: right;
+    font-size: 20px;
+    
+}
+
+ul li{
+    text-decoration-style:none;
+}

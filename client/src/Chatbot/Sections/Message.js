@@ -1,29 +1,36 @@
 import React from 'react'
 import { List, Icon, Avatar } from 'antd';
 
-
+require("../css/test.css");
 
 function Message(props) {
 
     const AvatarSrc = props.who ==='Chat-Bot' ? <Icon type="robot" /> : <Icon type="smile" />  
-    var color='right'
-    const fl=props.who==='Chat-Bot'?color='left' :color='right'
-    require("../css/test.css");
     
-    return (
-     
     
-        <List.Item style={{ padding: '1rem', fontSize:'10px'}} >
-            <List.Item.Meta
+    if(props.who==='Chat-Bot'){
+        return (
+            <ul className="sent">
                 
-                title={props.who}
-                description={props.text}
-                avatar={<Avatar icon={AvatarSrc} />}
-            />
-            
-        </List.Item>
-        
-    )
+                <p style={{fontSize:'20px',marginBottom:'0'}}> {<Avatar icon={AvatarSrc}/>}&nbsp;{props.who}</p>
+                <li>
+                    <p className="p">{props.text}</p>
+                </li>
+            </ul>
+        )
+    }else{
+
+        return (
+    
+        <ul className="replies">
+            <p className="r">{props.who}&nbsp;{<Avatar icon={AvatarSrc}/>}</p>
+            <br/><br/>
+            <li>
+                <p className="message">{props.text}</p>
+            </li>
+        </ul>
+        )
+    }
 }
 
 export default Message
