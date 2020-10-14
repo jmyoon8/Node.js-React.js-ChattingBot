@@ -1,0 +1,2 @@
+[1013/145923.315:ERROR:directory_reader_win.cc(43)] FindFirstFile: 지정된 경로를 찾을 수 없습니다. (0x3)
+[1013/155951.499:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\KOSMO_24\AppData\Local\Microsoft\Edge\User Data\Crashpad\attachments\17458fc2-5035-4f46-9860-afc59e63d35d: 지정된 경로를 찾을 수 없습니다. (0x3)

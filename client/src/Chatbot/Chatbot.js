@@ -7,7 +7,7 @@ import { List, Icon, Avatar } from 'antd';
 import Card from "./Sections/Card";
 
 
-
+require("../Chatbot/css/test.css");
 
 
 
@@ -143,13 +143,13 @@ function Chatbot() {
         }
     }
 
-
+    
     return (
         <div id="msgdiv" style={{
             height: 507, width: 600,
             border: '3px solid black', borderRadius: '7px'
         }}>
-            <div class="msgdiv" style={{ height: 450, width: '100%', overflow: 'auto' }}>
+            <div class="msgdiv" style={{ height: 450, width: '100%', overflow: 'auto' , overflowX:'hidden'}}>
                 
 
                 {renderMessage(messagesFromRedux)}
@@ -165,9 +165,7 @@ function Chatbot() {
                     onKeyPress={keyPressHanlder}
                     type="text"
                 />
-            
-
-        </div>
+            </div>
     )
 }
 

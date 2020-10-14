@@ -1,0 +1,25 @@
+.ant-list-item-meta-content{
+    overflow-x : hidden !important;
+    color: #f5f5f5;
+    font-size: 100%;
+    background-color: #e6e320cc !important;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+.ant-list-item-meta-description{
+    margin-left: 10px;
+    margin-bottom: 12px;
+    color: black !important;
+}
+.ant-list-item-meta-title{
+    margin-left: 10px;
+    color: #0b6b2394 !important;
+    font-weight: bold;
+}
+.msgdiv{
+    background: cornflowerblue;
+    
+    
+    
+    
+} 
