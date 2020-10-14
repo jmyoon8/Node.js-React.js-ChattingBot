@@ -146,10 +146,10 @@ function Chatbot() {
     
     return (
         <div id="msgdiv" style={{
-            height: 507, width: 600,
-            border: '1px solid black'
+            height: 507, width: 600
+         
         }}>
-            <div class="msgdiv" style={{ height: 450, width: '100%', overflow: 'auto' , overflowX:'hidden'}}>
+            <div class="msgdiv" style={{ height: 507, width: '100%', overflow: 'auto' , overflowX:'hidden'}}>
                 
 
                 {renderMessage(messagesFromRedux)}
@@ -158,14 +158,13 @@ function Chatbot() {
             </div>
                 <input
                     style={{
-                        marginTop: 3, width: '100%', height: 50,
-                        borderRadius: '4px', padding: '5px', fontSize: '1rem'
+                        width: 600, height: 45,
+                        fontSize: '1rem'
                     }}
                     placeholder="말씀해주세요!"
                     onKeyPress={keyPressHanlder}
                     type="text"
                 />
-                
             </div>
     )
 }
