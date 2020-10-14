@@ -1,9 +1,13 @@
-import React from 'react'
-import { List, Icon, Avatar } from 'antd';
+import React from 'react';
+import { Icon, Avatar } from 'antd';
 
 require("../css/test.css");
 
+
+
+
 function Message(props) {
+   
 
     const AvatarSrc = props.who ==='Chat-Bot' ? <Icon type="robot" /> : <Icon type="smile" />  
     

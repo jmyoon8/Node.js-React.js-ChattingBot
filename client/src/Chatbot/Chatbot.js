@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect,useRef } from 'react';
 import Axios from 'axios';
 import { useDispatch, useSelector } from 'react-redux';
 import { saveMessage } from '../_actions/message_actions';
@@ -131,7 +131,7 @@ function Chatbot() {
         }
        // template for card message 
     }
-
+ 
     const renderMessage = (returnedMessages) => {
 
         if (returnedMessages) {
@@ -143,14 +143,19 @@ function Chatbot() {
         }
     }
 
+    const messageEndRef = useRef();
     
+    useEffect(() => {
+        messageEndRef.current.scrollTop = messageEndRef.current.scrollHeight;
+      });
+      
     return (
-        <div id="msgdiv" style={{
-            height: 507, width: 600
-         
-        }}>
-            <div class="msgdiv" style={{ height: 507, width: '100%', overflow: 'auto' , overflowX:'hidden'}}>
-                
+     
+        <div id="msgdiv" style={{height: 507, width: 600}}>
+            
+
+            <div ref={messageEndRef}  className="msgdiv"  style={{ height: 507, width: '100%', overflow: 'auto' }}>
+            
 
                 {renderMessage(messagesFromRedux)}
 
