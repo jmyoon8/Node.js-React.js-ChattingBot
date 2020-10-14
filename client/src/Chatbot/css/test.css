@@ -18,9 +18,54 @@
     font-weight: bold;
 }
 .msgdiv{
-    background: cornflowerblue;
+    background: #B2C7DA;
     
 } 
+.ant-list-item-meta-content{
+    overflow-x: hidden !important;
+    overflow-y: hidden !important;
+}
+/* ----------카드--------- */
+.ant-card-body{
+    display: none;
+}
+.ant-list-item-meta-title{
+
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    --antd-wave-shadow-color: #1890ff;
+    -webkit-font-smoothing: antialiased;
+    font-feature-settings: 'tnum', "tnum";
+    letter-spacing: 0.1px;
+    color: #32465a !important;
+    text-rendering: optimizeLegibility;
+    list-style: none;
+    font: inherit;
+    word-break: keep-all;
+    word-wrap: break-word;
+    box-sizing: border-box;
+    margin-top: 0;
+    font-size: 20px;
+    margin-bottom: 0px;
+
+}
+.card{
+    width:70px;
+    height:70px;
+    margin:0px auto;
+    padding-top: 5px;
+    
+}
+.text{
+    text-align: center;
+    margin-top: 10px;
+    
+}
+.ant-card-meta-title{
+    
+    margin-left: calc(100%-20px);
+    
+}
+/* ------------------------ */
 .ant-list-item-meta-description{
     font-size: 15px;
 }
@@ -47,7 +92,7 @@
     width: calc(100% - 25px);
 
 }
-.sent .p{
+.p{
     letter-spacing: 0.1px;
     color: #000000;
     text-rendering: optimizeLegibility;
@@ -64,8 +109,10 @@
     border-radius: 20px;
     line-height: 100%;
     max-width: 550px;
-    background:  #e6e320f1;
+    background:#FFEB34;
+    /* #e6e320f1; */
     float: left;
+    line-height:22px;
 }
 
 /* 본인이 보낼떄 */
@@ -105,6 +152,7 @@
     max-width: 550px;
     background:  white;
     float: right;
+    line-height:22px;
     
 }
 

@@ -18,7 +18,7 @@ function Message(props) {
                 
                 <p style={{fontSize:'20px',marginBottom:'0'}}> {<Avatar icon={AvatarSrc}/>}&nbsp;{props.who}</p>
                 <li>
-                    <p className="p">{props.text}</p>
+                    <pre className="p">{props.text}</pre>
                 </li>
             </ul>
         )
@@ -30,7 +30,7 @@ function Message(props) {
             <p className="r">{props.who}&nbsp;{<Avatar icon={AvatarSrc}/>}</p>
             <br/><br/>
             <li>
-                <p className="message">{props.text}</p>
+                <pre className="message">{props.text}</pre>
             </li>
         </ul>
         )
